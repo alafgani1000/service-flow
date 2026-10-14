@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "CleanPro",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "name": "Base", "slug": "base", "color": "#FFFFFF" },
+				{ "name": "Surface", "slug": "surface", "color": "#F0FDFA" },
+				{ "name": "Contrast", "slug": "contrast", "color": "#134E4A" },
+				{ "name": "Muted", "slug": "muted", "color": "#2DD4BF" },
+				{ "name": "Border", "slug": "border", "color": "#CCFBF1" },
+				{ "name": "Primary", "slug": "primary", "color": "#115E59" },
+				{ "name": "Secondary", "slug": "secondary", "color": "#0F766E" },
+				{ "name": "Accent", "slug": "accent", "color": "#0D9488" },
+				{ "name": "Accent Contrast", "slug": "accent-contrast", "color": "#FFFFFF" },
+				{ "name": "Accent Strong", "slug": "accent-strong", "color": "#115E59" },
+				{ "name": "Success", "slug": "success", "color": "#15803D" },
+				{ "name": "Danger", "slug": "danger", "color": "#BE123C" }
+			]
+		}
+	}
+}

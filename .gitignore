@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node & Composer (future)
+node_modules/
+vendor/
+npm-debug.log
+yarn-error.log
+
+# Log files
+*.log

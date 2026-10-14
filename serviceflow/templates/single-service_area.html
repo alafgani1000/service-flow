@@ -1,0 +1,47 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"sf-site-header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:template-part {"slug":"breadcrumbs","align":"wide"} /-->
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","contentSize":"840px"}} -->
+<div class="wp-block-group alignwide">
+	<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
+	<p class="is-style-eyebrow"><?php esc_html_e( 'LOCAL SERVICE AREA', 'serviceflow' ); ?></p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:post-title {"level":1} /-->
+
+	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+
+	<!-- wp:group {"className":"is-style-card sf-accent-top","style":{"spacing":{"blockGap":"var:preset|spacing|20","margin":{"top":"var:preset|spacing|40"}}},"layout":{"type":"default"}} -->
+	<div class="wp-block-group is-style-card sf-accent-top" style="margin-top:var(--wp--preset--spacing--40)">
+		<!-- wp:heading {"level":3,"fontSize":"large"} -->
+		<h3 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Need Fast Auto Service in this Area?', 'serviceflow' ); ?></h3>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
+		<p class="has-muted-color has-text-color has-small-font-size"><?php esc_html_e( 'We provide full maintenance, diagnostics, and repairs for drivers in this community. Book online or contact us via WhatsApp for immediate support.', 'serviceflow' ); ?></p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:buttons -->
+		<div class="wp-block-buttons">
+			<!-- wp:button {"metadata":{"bindings":{"url":{"source":"serviceflow/links","args":{"key":"booking"}}}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#contact"><?php esc_html_e( 'Book Service in this Area', 'serviceflow' ); ?></a></div>
+			<!-- /wp:button -->
+
+			<!-- wp:button {"className":"is-style-whatsapp","metadata":{"bindings":{"url":{"source":"serviceflow/links","args":{"key":"whatsapp"}}}}} -->
+			<div class="wp-block-button is-style-whatsapp"><a class="wp-block-button__link wp-element-button" href="https://wa.me/"><?php esc_html_e( 'WhatsApp Us', 'serviceflow' ); ?></a></div>
+			<!-- /wp:button -->
+		</div>
+		<!-- /wp:buttons -->
+	</div>
+	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"serviceflow/cta"} /--></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+
+<!-- wp:template-part {"slug":"mobile-cta"} /-->

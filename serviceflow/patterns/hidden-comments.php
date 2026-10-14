@@ -1,0 +1,44 @@
+<?php
+/**
+ * Title: Single Comments
+ * Slug: serviceflow/hidden-comments
+ * Categories: serviceflow
+ * Inserter: false
+ *
+ * @package ServiceFlow
+ */
+
+?>
+<!-- wp:comments {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-comments" style="margin-top:var(--wp--preset--spacing--50)">
+	<!-- wp:comments-title {"level":3} /-->
+	<!-- wp:comment-template -->
+		<!-- wp:columns -->
+		<div class="wp-block-columns">
+			<!-- wp:column {"width":"48px"} -->
+			<div class="wp-block-column" style="flex-basis:48px">
+				<!-- wp:avatar {"size":48,"style":{"border":{"radius":"999px"}}} /-->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column -->
+			<div class="wp-block-column">
+				<!-- wp:comment-author-name /-->
+				<!-- wp:comment-date {"fontSize":"small"} /-->
+				<!-- wp:comment-content /-->
+				<!-- wp:comment-reply-link {"fontSize":"small"} /-->
+			</div>
+			<!-- /wp:column -->
+		</div>
+		<!-- /wp:columns -->
+	<!-- /wp:comment-template -->
+
+	<!-- wp:comments-pagination -->
+		<!-- wp:comments-pagination-previous /-->
+		<!-- wp:comments-pagination-numbers /-->
+		<!-- wp:comments-pagination-next /-->
+	<!-- /wp:comments-pagination -->
+
+	<!-- wp:post-comments-form /-->
+</div>
+<!-- /wp:comments -->

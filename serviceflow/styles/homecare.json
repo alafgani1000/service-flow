@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "HomeCare",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "name": "Base", "slug": "base", "color": "#FFFFFF" },
+				{ "name": "Surface", "slug": "surface", "color": "#F0F7FF" },
+				{ "name": "Contrast", "slug": "contrast", "color": "#0F172A" },
+				{ "name": "Muted", "slug": "muted", "color": "#475569" },
+				{ "name": "Border", "slug": "border", "color": "#CBD5E1" },
+				{ "name": "Primary", "slug": "primary", "color": "#0C4A6E" },
+				{ "name": "Secondary", "slug": "secondary", "color": "#0369A1" },
+				{ "name": "Accent", "slug": "accent", "color": "#0284C7" },
+				{ "name": "Accent Contrast", "slug": "accent-contrast", "color": "#FFFFFF" },
+				{ "name": "Accent Strong", "slug": "accent-strong", "color": "#0369A1" },
+				{ "name": "Success", "slug": "success", "color": "#15803D" },
+				{ "name": "Danger", "slug": "danger", "color": "#B91C1C" }
+			]
+		}
+	}
+}

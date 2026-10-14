@@ -1,0 +1,24 @@
+/**
+ * ServiceFlow Core — Admin styles
+ */
+
+.sf-admin-wrap {
+	margin-top: 20px;
+}
+
+.sf-meta-table th {
+	width: 220px;
+	font-weight: 600;
+}
+
+.sf-meta-table td input[type="text"],
+.sf-meta-table td input[type="tel"],
+.sf-meta-table td input[type="url"],
+.sf-meta-table td select {
+	max-width: 100%;
+}
+
+.sf-card h2,
+.sf-card h3 {
+	margin-top: 0;
+}

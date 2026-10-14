@@ -1,0 +1,22 @@
+/**
+ * ServiceFlow — editor-only overrides.
+ *
+ * Loaded after theme.css via add_editor_style(). Keeps fixed/sticky elements
+ * in normal flow so they can be edited in the Site Editor.
+ */
+
+.sf-site-header {
+	position: static;
+}
+
+.sf-mobile-cta {
+	position: static;
+	display: block;
+	background-color: var(--wp--preset--color--primary);
+	padding: 0.5rem;
+}
+
+.sf-mobile-cta .wp-block-buttons {
+	display: flex;
+	gap: 0.5rem;
+}

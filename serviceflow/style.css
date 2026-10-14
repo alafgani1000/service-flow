@@ -1,0 +1,19 @@
+/*
+Theme Name: ServiceFlow
+Author: ServiceFlow
+Description: Conversion-focused block theme for local service businesses (auto workshops, HVAC, plumbing, cleaning, electrical). Built for Gutenberg with a token-based design system, conversion-ordered patterns and a mobile sticky CTA. Pair with the ServiceFlow Core plugin for services, booking, calculator and business data.
+Requires at least: 6.6
+Tested up to: 6.8
+Requires PHP: 8.1
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: serviceflow
+Domain Path: /languages
+Tags: block-patterns, block-styles, full-site-editing, wide-blocks, custom-colors, editor-style, style-variations, translation-ready, rtl-language-support, business, one-column
+
+ServiceFlow is distributed under the terms of the GNU GPL v2 or later.
+
+Styles live in theme.json (design tokens) and assets/css/theme.css (components).
+This file only carries the theme header.
+*/
